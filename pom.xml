@@ -83,13 +83,13 @@
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-cdi</artifactId>
-            <version>1.0.0.alpha2</version>
+            <version>1.0.0.alpha3</version>
         </dependency>
         <!-- A helper library for generic Vaadin apps -->
         <dependency>
             <groupId>org.peimari</groupId>
             <artifactId>maddon</artifactId>
-            <version>1.8</version>
+            <version>1.9</version>
         </dependency>
     </dependencies>
     <repositories>

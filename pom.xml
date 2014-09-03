@@ -89,7 +89,7 @@
         <dependency>
             <groupId>org.peimari</groupId>
             <artifactId>maddon</artifactId>
-            <version>1.10</version>
+            <version>1.11</version>
         </dependency>
     </dependencies>
     <repositories>

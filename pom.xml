@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.vaadin</groupId>
     <artifactId>vaadin-java-ee-essentials</artifactId>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.5</version>
     <packaging>pom</packaging>
     <name>Java EE Essentials for Vaadin</name>
     <description>Contains minimal depenedencies for pure server side Vaadin Java EE apps.</description>
@@ -83,13 +83,13 @@
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-cdi</artifactId>
-            <version>1.0.0.beta1</version>
+            <version>1.0.0.beta2</version>
         </dependency>
         <!-- A helper library for generic Vaadin apps -->
         <dependency>
             <groupId>org.peimari</groupId>
             <artifactId>maddon</artifactId>
-            <version>1.12</version>
+            <version>1.13</version>
         </dependency>
     </dependencies>
     <repositories>

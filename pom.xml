@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.vaadin</groupId>
     <artifactId>vaadin-java-ee-essentials</artifactId>
-    <version>1.7-SNAPSHOT</version>
+    <version>1.7</version>
     <packaging>pom</packaging>
     <name>Java EE Essentials for Vaadin</name>
     <description>Contains minimal depenedencies for pure server side Vaadin Java EE apps.</description>
@@ -17,7 +17,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <vaadin.version>7.3.5</vaadin.version>
+        <vaadin.version>7.3.7</vaadin.version>
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
@@ -78,13 +78,13 @@
         <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-cdi</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.2</version>
         </dependency>
         <!-- A helper library for generic Vaadin apps -->
         <dependency>
             <groupId>org.peimari</groupId>
             <artifactId>maddon</artifactId>
-            <version>1.19</version>
+            <version>1.21</version>
         </dependency>
     </dependencies>
     <repositories>

@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.vaadin</groupId>
     <artifactId>vaadin-java-ee-essentials</artifactId>
-    <version>1.8-SNAPSHOT</version>
+    <version>1.8</version>
     <packaging>pom</packaging>
     <name>Java EE Essentials for Vaadin</name>
     <description>Contains minimal depenedencies for pure server side Vaadin Java EE apps.</description>
@@ -21,6 +21,8 @@
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
+        <deltaspike.version>1.2.0</deltaspike.version>
+
     </properties>
         
     <distributionManagement>
@@ -37,6 +39,21 @@
             <version>6.0-5</version>
             <scope>provided</scope>
         </dependency>
+        
+        <dependency>
+            <groupId>org.apache.deltaspike.core</groupId>
+            <artifactId>deltaspike-core-api</artifactId>
+            <version>${deltaspike.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.deltaspike.core</groupId>
+            <artifactId>deltaspike-core-impl</artifactId>
+            <version>${deltaspike.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+
 
         <!-- Vaadin core -->
         <dependency>
@@ -74,17 +91,11 @@
             <artifactId>vaadin-client-compiled</artifactId>
             <version>${vaadin.version}</version>
         </dependency>
-        <!-- Vaadin CDI Add-On -->
+        <!-- Vaadin CDI Add-On, Maddon and some helpers -->
         <dependency>
-            <groupId>com.vaadin</groupId>
-            <artifactId>vaadin-cdi</artifactId>
-            <version>1.0.2</version>
-        </dependency>
-        <!-- A helper library for generic Vaadin apps -->
-        <dependency>
-            <groupId>org.peimari</groupId>
-            <artifactId>maddon</artifactId>
-            <version>1.21</version>
+            <groupId>org.vaadin</groupId>
+            <artifactId>cdi-helpers</artifactId>
+            <version>1.5</version>
         </dependency>
     </dependencies>
     <repositories>

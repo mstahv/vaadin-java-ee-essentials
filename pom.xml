@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.vaadin</groupId>
     <artifactId>vaadin-java-ee-essentials</artifactId>
-    <version>1.9-SNAPSHOT</version>
+    <version>1.9</version>
     <packaging>pom</packaging>
     <name>Java EE Essentials for Vaadin</name>
     <description>Contains minimal depenedencies for pure server side Vaadin Java EE apps.</description>
@@ -95,7 +95,7 @@
         <dependency>
             <groupId>org.vaadin</groupId>
             <artifactId>cdi-helpers</artifactId>
-            <version>1.5</version>
+            <version>1.7</version>
         </dependency>
     </dependencies>
     <repositories>

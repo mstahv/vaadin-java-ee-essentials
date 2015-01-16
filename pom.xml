@@ -21,7 +21,7 @@
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
-        <deltaspike.version>1.2.0</deltaspike.version>
+        <deltaspike.version>1.2.1</deltaspike.version>
 
     </properties>
         
@@ -63,7 +63,7 @@
             <exclusions>
                 <!-- 
                     Exclude stuff that is only needed for runtime css compilation
-                    or 
+                    or gwt server side, pretty much never used in Vaadin apps
                 -->
                 <exclusion>
                     <artifactId>vaadin-sass-compiler</artifactId>
@@ -76,6 +76,10 @@
                 <exclusion>
                     <artifactId>streamhtmlparser-jsilver</artifactId>
                     <groupId>com.vaadin.external.streamhtmlparser</groupId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.vaadin.external.google</groupId>
+                    <artifactId>guava</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -95,7 +99,7 @@
         <dependency>
             <groupId>org.vaadin</groupId>
             <artifactId>cdi-helpers</artifactId>
-            <version>1.7</version>
+            <version>1.8-SNAPSHOT</version>
         </dependency>
     </dependencies>
     <repositories>

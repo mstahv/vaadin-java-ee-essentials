@@ -12,12 +12,11 @@
         <url>git://github.com/mstahv/vaadin-java-ee-essentials.git</url>
         <connection>scm:git:git://github.com/mstahv/vaadin-java-ee-essentials.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:/mstahv/vaadin-java-ee-essentials.git</developerConnection>
-        <tag>Maddon add-on for Vaadin</tag>
     </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <vaadin.version>7.3.8</vaadin.version>
+        <vaadin.version>7.3.9</vaadin.version>
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
@@ -95,11 +94,11 @@
             <artifactId>vaadin-client-compiled</artifactId>
             <version>${vaadin.version}</version>
         </dependency>
-        <!-- Vaadin CDI Add-On, Maddon and some helpers -->
+        <!-- Vaadin CDI Add-On, Viritin and some helpers -->
         <dependency>
             <groupId>org.vaadin</groupId>
             <artifactId>cdi-helpers</artifactId>
-            <version>1.8-SNAPSHOT</version>
+            <version>1.8</version>
         </dependency>
     </dependencies>
     <repositories>
@@ -115,6 +114,11 @@
                 <artifactId>wildfly-maven-plugin</artifactId>
                 <version>1.0.2.Final</version>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.1</version>
+            </plugin>
         </plugins>
         <extensions>
             <extension>
@@ -123,6 +127,7 @@
                 <version>2.4</version>
             </extension>
         </extensions>
+
     </build>
 
 </project>

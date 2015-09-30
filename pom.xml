@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.vaadin</groupId>
     <artifactId>vaadin-java-ee-essentials</artifactId>
-    <version>1.13-SNAPSHOT</version>
+    <version>1.13</version>
     <packaging>pom</packaging>
     <name>Java EE Essentials for Vaadin</name>
     <description>Contains minimal depenedencies for pure server side Vaadin Java EE apps.</description>
@@ -12,7 +12,7 @@
         <url>git://github.com/mstahv/vaadin-java-ee-essentials.git</url>
         <connection>scm:git:git://github.com/mstahv/vaadin-java-ee-essentials.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:/mstahv/vaadin-java-ee-essentials.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>vaadin-java-ee-essentials-1.13</tag>
     </scm>
 
     <properties>

@@ -17,10 +17,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <vaadin.version>7.5.6</vaadin.version>
+        <vaadin.version>7.5.10</vaadin.version>
         <failOnMissingWebXml>false</failOnMissingWebXml>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
         
     <distributionManagement>
@@ -32,10 +32,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.openejb</groupId>
+            <groupId>javax</groupId> 
             <artifactId>javaee-api</artifactId>
-            <version>6.0-5</version>
-            <scope>provided</scope>
+            <version>7.0</version>        
         </dependency>
         <!-- Vaadin core -->
         <dependency>

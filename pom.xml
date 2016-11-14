@@ -59,10 +59,14 @@
             </exclusions>
         </dependency>
         <!-- Default themes, trimmed down dawn instead of core theme -->
-        <dependency>
+<!-- Disabled, fontawesome seems to be broken currently        <dependency>
             <groupId>org.peimari</groupId>
             <artifactId>dawn</artifactId>
             <version>12</version>
+        </dependency>-->
+        <dependency>
+            <groupId>com.vaadin</groupId>
+            <artifactId>vaadin-themes</artifactId>
         </dependency>
         <!-- Pre-built widgetset, enough for most small business apps -->
         <dependency>
